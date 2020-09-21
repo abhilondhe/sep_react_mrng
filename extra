@@ -1,0 +1,129 @@
+https://nodejs.org/en/
+https://code.visualstudio.com/
+https://github.com/Aakashdeveloper
+https://github.com/
+
+
+Basic JavaScript
+Npm
+
+React = 3
+React_hooks -1
+React-Redux =2
+React-JWT(Login Logout)-1
+React-GraphQL 1
+React-Saga -1
+Basic React Native=1
+Testing
+Depolyment
+-> MERN
+-> Heroku
+-> Docker
+-> Nginx
+
+Mock API
+json-server
+
+Github
+
+--------NOT--------------
+building API
+building GraphQL api
+building Login/Logout api
+
+//////////
+Single Page application
+(Spa)
+
+Virtual DOM
+
+node package manager(npm)
+>>>>>>>>>>>>>><<<<<<<<<<<<<<
+
+/////////////
+Package.json
+///////////
+name
+description
+cmd
+meta data
+dependency
+entry point
+
+/////////
+Step to create package.json
+//////////////
+**NodeJs must be installed in your system
+> navigate to the folder using cmd/terminal
+> npm init
+> Answer all questions
+> type "yes"
+
+>>>>>>>>>><<<<<<<<<<<<
+//////
+How to install package
+/////////
+> navigate to the folder using cmd/terminal
+> npm i packagename
+
+> npm i 
+
+by default alaways latest version
+for specific version (npm i react@16.2.1)
+
+
+/////////////
+create-react-app
+//////////
+
+>>>>>
+local dependency > local to folder
+
+global dependency > local to system
+> need admin access to install
+> they will not add in package.json
+> they are just used generate application first time
+
+/////Window/////
+open cmd as admin 
+npm i -g create-react-app
+
+///mac
+open terminal
+sudo npm i -g create-react-app
+
+
+////////////////////////
+How to generate React app
+////////////////////////
+?????Window??????
+
+>>>>>Only Time time<<<<<<
+open cmd as admin 
+npm i -g create-react-app
+
+>>>>Next Every Time<<<<<<<
+> go inside the folder where you want app 
+> create-react-app appname
+
+------------------------------
+?????Mac/Linux??????
+>>>>>Only Time time<<<<<<
+open terminal
+sudo npm i -g create-react-app
+
+>>>>Next Every Time<<<<<<<
+> go inside the folder where you want app 
+> create-react-app appname
+
+React > main lib
+ReactDOM > help to render display the content on screen
+ReactScript > help to run application
+
+
+////////////////////////
+How to start React app
+////////////////////////
+> go inside app folder
+> npm start 
+> http://localhost:3000
