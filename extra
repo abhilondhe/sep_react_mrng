@@ -127,3 +127,23 @@ How to start React app
 > go inside app folder
 > npm start 
 > http://localhost:3000
+
+
+
+State Props
+
+
+state
+> State act like a local variable
+> state can be defined in class component
+> value of state can be updated in same component
+> any data intercation will happen through state
+
+Props
+> help to pass data from one component to another
+> value of props cannot be updated
+
+
+
+ComponentA                ====>    ComponentB
+State=data from Api       props    we can recive data from props
