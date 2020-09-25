@@ -147,3 +147,8 @@ Props
 
 ComponentA                ====>    ComponentB
 State=data from Api       props    we can recive data from props
+
+class component
+css 
+
+var a = []
