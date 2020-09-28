@@ -152,3 +152,34 @@ class component
 css 
 
 var a = []
+
+var a = ["hi","Hello","Bie"]
+a.map((data) => { console.log(data)})
+
+
+var a =[2,5,8,9]
+a.map((data) => { return data*2})
+[4, 10, 16, 18]
+
+
+var a = 10
+undefined
+a>10 ? "Hiii":"Bie"
+"Bie"
+a==10 ? "Hiii":"Bie"
+"Hiii"
+
+var a = [56,45,32,23,43,78,68]
+a.filter((data) => { return data>45})
+[56, 78, 68]
+
+var city = ['London','Paris','Newyork','Amsterdam']
+
+city.indexOf('London')
+0
+city.indexOf('Newyork')
+2
+city.indexOf('Delhi')
+-1
+city.indexOf('Mumbai')
+-1

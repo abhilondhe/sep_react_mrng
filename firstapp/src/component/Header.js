@@ -7,17 +7,22 @@ class Header extends Component{
 
         this.state={
             title:'React State App',
-            keyword:'User Input Here'
+            keyword:'User Input Here',
         }
     }
 
+    inputChange = (event) => {
+        console.log(event.target.value)
+        this.setState({keyword:event.target.value?event.target.value:'User Text Here'})
+    }
     render(){
+        console.log("Render function calll")
         return(
             <Fragment>
                 <header>
                     <div className="logo">{this.state.title}</div>
                     <center>
-                        <input/>
+                        <input onChange={this.inputChange} placeholder="My text"/>
                         <div style={{color:'white'}}>{this.state.keyword}</div>
                     </center>
                 </header>
