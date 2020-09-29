@@ -183,3 +183,26 @@ city.indexOf('Delhi')
 -1
 city.indexOf('Mumbai')
 -1
+
+{(){
+
+}()}
+
+IFFI
+
+parent => child (props)
+child => parent(callback)
+
+function add(a,b){
+    return a+b 
+}
+
+add(1,2)
+
+npm i react-router-dom
+
+Grid Basic
+panel
+button
+
+https://www.w3schools.com/bootstrap/bootstrap_panels.asp

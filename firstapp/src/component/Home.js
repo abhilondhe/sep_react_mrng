@@ -14,12 +14,9 @@ class Home extends Component{
         }
     }
 
-    /*var a = [56,45,32,23,43,78,68]
-a.filter((data) => { return data>45})*/
-
-    filterNews(keyword){
+    filterNews(userinput){
         const output =this.state.news.filter((data) =>{
-            return data.title.indexOf(keyword)>-1
+            return data.title.toLowerCase().indexOf(userinput.toLowerCase())>-1
         })
 
         this.setState({filtered:output})
@@ -27,10 +24,9 @@ a.filter((data) => { return data>45})*/
 
 
     render(){
-        //console.log(this.state.news)
         return(
             <React.Fragment>
-                <Header/>
+                <Header userText={(data) => {this.filterNews(data)}}/>
                 <NewsList newsdata={this.state.filtered}/>
                 <Footer year="2021" month="Sep"/>
             </React.Fragment>
