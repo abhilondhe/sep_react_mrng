@@ -222,3 +222,5 @@ https://developerfunnel.herokuapp.com/hotellist/1?hcost=1000&lcost=500
 
 https://github.com/Aakashdeveloper/hotelApi
 https://developerhotel.herokuapp.com/
+
+npm i axios react-router-dom react-tabs
