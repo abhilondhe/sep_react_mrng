@@ -3,6 +3,7 @@ import {BrowserRouter, Route} from 'react-router-dom';
 import Home from './Home/Main';
 import Footer from './Footer';
 import Header from './Header';
+import ListingApi from './Listing/ListingApi';
 
 
 const Routing = () => {
@@ -10,7 +11,8 @@ const Routing = () => {
         <BrowserRouter>
             <div>
                 <Header/>
-                <Route path="/" component={Home}/>
+                <Route exact path="/" component={Home}/>
+                <Route path="/list/:id" component={ListingApi}/>
                 <Footer/>
             </div>
         </BrowserRouter>
