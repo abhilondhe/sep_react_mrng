@@ -9,9 +9,10 @@ Npm
 
 React = 3
 React_hooks -1
-React-Redux =2
 React-JWT(Login Logout)-1
 React-GraphQL 1
+
+React-Redux =2
 React-Saga -1
 Basic React Native=1
 Testing
@@ -224,6 +225,12 @@ https://github.com/Aakashdeveloper/hotelApi
 https://developerhotel.herokuapp.com/
 
 npm i axios react-router-dom react-tabs
+
+
+var [a,b] = [1,2]
+
+{data:data}
+{data}
 
 //es5
 var a = 10
