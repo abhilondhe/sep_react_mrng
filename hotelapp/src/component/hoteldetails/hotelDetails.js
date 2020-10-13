@@ -3,6 +3,7 @@ import axios from 'axios';
 import {Link} from 'react-router-dom';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+import {withRouter} from 'react-router-dom';
 
 const url = "https://developerfunnel.herokuapp.com/hotelsdetails"
 
@@ -17,6 +18,7 @@ class HotelDetails extends Component{
     }
 
     render(){
+        console.log(">>>in Details>>>",(this.props.location.search).split('=')[1])
         let {hotel} = this.state
         return(
            <div className="container">
@@ -88,4 +90,4 @@ class HotelDetails extends Component{
     }*/
 }
 
-export default HotelDetails;
+export default withRouter(HotelDetails);

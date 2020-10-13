@@ -1,6 +1,8 @@
 import React,{Component} from 'react';
 import axios from 'axios';
 import ListingDisplay from './ListingDisplay';
+import RoomFilter from '../filters/roomfilter';
+import CostFilter from '../filters/costfilter';
 
 const url = "https://developerfunnel.herokuapp.com/hotellist"
 
@@ -13,13 +15,18 @@ class Listing extends Component{
         }
     }
 
+    setDataPerFilter(soretedData){
+        this.setState({hotellist:soretedData})
+    }
+
     render(){
         console.log(this.state.hotellist)
         return(
             <div>
             <div className="row">
                 <div className="col-md-2">
-                   Filter Here
+                   <RoomFilter roomperType={(data) => {this.setDataPerFilter(data)}}/>
+                   <CostFilter roomperCost={(data) => {this.setDataPerFilter(data)}}/>
                 </div>
                 <div className="col-md-10">
                     <ListingDisplay listdata={this.state.hotellist}/>
