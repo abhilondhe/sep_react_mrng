@@ -8,6 +8,7 @@ Basic JavaScript
 Npm
 
 React = 3
+///////
 React_hooks -1
 React-JWT(Login Logout)-1
 React-GraphQL 1
@@ -252,3 +253,21 @@ const add = (a,b) => {return a+b}
 ////
 build app
 > npm run build
+
+
+//Mount
+> constructor
+> getDerivedStateFromProps()
+> componentWillMount()
+> render
+> componentDidMount()
+
+//update
+> getDerivedStateFromProps()
+> shouldComponentUpdate()
+> componentWillUpdate()
+> render
+> componentDidUpdate()
+
+//unmount
+> componentWillUnmount
