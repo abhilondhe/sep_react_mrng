@@ -6,15 +6,14 @@ https://github.com/
 
 Basic JavaScript
 Npm
-
 React = 3
 React_hooks -1
-///////
-
 React-JWT(Login Logout)-1
+Mock API=> json-server
 React-GraphQL 1
-
+////////
 React-Redux =2
+
 React-Saga -1
 Basic React Native=1
 Testing
@@ -23,10 +22,6 @@ Depolyment
 -> Heroku
 -> Docker
 -> Nginx
-
-Mock API
-json-server
-
 Github
 
 --------NOT--------------
@@ -295,3 +290,16 @@ build app
 
 
 https://www.youtube.com/c/DeveloperFunnel/videos?view_as=subscriber
+
+
+/////Dummy Api///
+//Window
+npm i -g json-server
+
+//mac
+sudo npm i -g json-server
+
+json-server --watch db.json --port 9900
+
+
+npm i graphql apollo-grapgql apollo-boost graphql-tag 

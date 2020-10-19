@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 
-const registerUrl = "http://localhost:5000/api/auth/register";
+const loginUrl = "http://localhost:5000/api/auth/login";
 
 class LoginComponent extends Component{
     constructor(){
@@ -22,10 +22,7 @@ class LoginComponent extends Component{
 
 
     handleSubmit =() => {
-        var data  = {
-            "order_id":this.state.order_id
-        }
-        fetch(registerUrl,{
+        fetch(loginUrl,{
             method:'POST',
             headers:{
                 'Accept':'application/json',
@@ -33,7 +30,11 @@ class LoginComponent extends Component{
             },
             body:JSON.stringify(this.state)
         })
-        .then((this.props.history.push('/viewBooking?message="success"')))
+        .then((res) => res.json())
+        .then((data)=>{
+            sessionStorage.setItem('_ltk',data.token)
+            this.props.history.push('/profile')
+        })
     }
 
 
