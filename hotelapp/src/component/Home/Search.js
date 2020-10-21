@@ -50,6 +50,7 @@ class Search extends Component{
             this.setState({hotels:data})
         })
     }
+    
 
 
     handleHotel =(event) => {

@@ -328,3 +328,10 @@ git clone https://github.com/Aakashdeveloper/production-react.git
 
 docker build . -t imagename
 docker run -p 7890:3000 imagename
+
+//////////////////////////////////
+Structure of application
+sharing a data between two non nested component
+state management
+
+npm i redux react-redux redux-logger prop-types
