@@ -335,3 +335,13 @@ sharing a data between two non nested component
 state management
 
 npm i redux react-redux redux-logger prop-types
+
+npm i prop-types redux react-redux react-router-dom react-slick redux-logger 
+redux-promise enzyme enzyme-adapter-react-16 react-addons-test-utils react-test-renderer
+
+/////////////////////////
+> npm i -g create-react-native-app
+> create-react-native-app appname
+
+goinside the app
+> npm run web
