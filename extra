@@ -17,11 +17,12 @@ Depolyment
 -> Docker
 -> Nginx
 Github
-////////
 React-Redux =2
+Testing
+////////
 React-Saga -1
 Basic React Native=1
-Testing
+
 
 
 --------NOT--------------
